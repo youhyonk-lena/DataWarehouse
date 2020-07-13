@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="uft-8">
+	<title> INF551 Project </title>
+	<link href ="style.css" type="text/css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.4.2/css/tabulator.min.css" rel="stylesheet">
+	<link href="https://unpkg.com/tabulator-tables@4.6.2/dist/css/tabulator.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.6.2/dist/js/tabulator.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+	<link href="https://unpkg.com/tabulator-tables@4.6.2/dist/css/tabulator.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.6.2/dist/js/tabulator.min.js"></script>
+
+</head>
+<body>
+	<div id="outercontainer">
+		<div id="header">
+			<h1> FINDATA </h1>
+			<h4> Use keywords to look up instances from the selected databases </h4>
+		</div>
+		<div class = "clearfix" id = "search-container">
+			<div id = "dropdownDiv">
+				<select required name = "database" id = "database" class = "dropbtn" >
+					<option value = "" selected>-- Select DataBase to Search --</option>
+					<option value = "world">World DataBase</option>
+					<option value = "sakila">Sakila DataBase</option>
+					<option value = "baseball">Baseball DataBase</option>
+				</select>
+			</div>
+			<div class = "clearfix" id = "search-keyword">
+				<input required class = "form-control" type = "text" id = "search-text" name = "keyword" placeholder =" Type keyword">
+				<button type = "button" id = "search-button" onclick="submit()"><i class = "fa fa-search"></i></button>
+			</div>
+
+		</div>
+		<div id="result">
+		</div>
+	</div>
+
+	<script src = "https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+	<script src = "main.js"></script>
+</body>
+
+</html>
