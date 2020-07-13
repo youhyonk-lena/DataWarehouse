@@ -1,0 +1,107 @@
+mysql> #a
+
++--------------+------------+
+| Name         | Population |
++--------------+------------+
+| New York     |    8008278 |
+| Los Angeles  |    3694820 |
+| Chicago      |    2896016 |
+| Houston      |    1953631 |
+| Philadelphia |    1517550 |
+| Phoenix      |    1321045 |
+| San Diego    |    1223400 |
+| Dallas       |    1188580 |
+| San Antonio  |    1144646 |
+| Detroit      |     951270 |
++--------------+------------+
+
+
+mysql> #b
+
++----------------------+---------------+------------+
+| Name                 | Continent     | Population |
++----------------------+---------------+------------+
+| United Arab Emirates | Asia          |    2441000 |
+| United Kingdom       | Europe        |   59623400 |
+| United States        | North America |  278357000 |
++----------------------+---------------+------------+
+
+
+mysql> #c-i
+
++----------------------------------------------+
+| Name                                         |
++----------------------------------------------+
+| Antarctica                                   |
+| French Southern territories                  |
+| Bouvet Island                                |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| South Georgia and the South Sandwich Islands |
++----------------------------------------------+
+
+
+mysql> #c-ii
+
++----------------------------------------------+
+| Name                                         |
++----------------------------------------------+
+| Antarctica                                   |
+| French Southern territories                  |
+| Bouvet Island                                |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| South Georgia and the South Sandwich Islands |
++----------------------------------------------+
+
+
+
+mysql> #d
+
++---------------------------------------------+
+| Name                                        |
++---------------------------------------------+
+| China                                       |
+| India                                       |
+| Russian Federation                          |
+| United States                               |
+| Canada                                      |
+| Congo, The Democratic Republic of the Kenya |
+| Mozambique                                  |
+| Nigeria                                     |
+| Tanzania                                    |
+| Uganda                                      |
++---------------------------------------------+
+
+
+mysql> #e
+
++--------------------+
+| Name               |
++--------------------+
+| Canada             |
+| China              |
+| India              |
+| Russian Federation |
+| United States      |
++--------------------+
+
+
+
+mysql> #f
+
++------------+
+| Language   |
++------------+
+| Chinese    |
+| Hindi      |
+| English    |
+| Spanish    |
+| Arabic     |
+| Malay      |
+| Portuguese |
+| Russian    |
+| Urdu       |
+| French     |
++------------+
+
